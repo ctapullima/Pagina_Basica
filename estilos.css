@@ -1,0 +1,267 @@
+/* setear la pagina */
+* {
+    margin: 0px;
+    padding: 0px;
+    margin: auto;
+}
+
+body {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* header */
+#logo img {
+    height: 100px;
+}
+
+header {
+    display: flex;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.cuadro {
+    height: 90px;
+    line-height: 90px;
+    width: 120px;
+    text-align: center;
+}
+
+.cuadro a {
+    text-decoration: none;
+    color: black;
+}
+
+.cuadro:hover {
+    background-color: rgb(216, 209, 209);
+    color: #9c27b0;
+    font-size: 33px;
+}
+
+.icon-facebook2 {
+    color: blue;
+}
+
+.icon-whatsapp {
+    color: green;
+}
+
+.icon-youtube2 {
+    color: red;
+}
+
+
+
+
+
+/* Letras*/
+#amarillo {
+    background-color: #7a7a11;
+    height: 60px;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+#verde {
+    background-color: green;
+    height: 60px;
+    font-family: 'Oswald', sans-serif;
+
+}
+
+#celeste {
+    background-color: #1da8e9;
+    height: 60px;
+    font-family: 'Comic Neue', cursive;
+
+}
+
+#rojo {
+    background-color: #c01111;
+    height: 60px;
+    font-family: 'Bungee Spice', cursive;
+
+}
+
+#guinda {
+    background-color: #7f1594;
+    height: 60px;
+}
+
+.cuadro1 {
+    border: 4px solid black;
+    margin-bottom: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    text-align: center;
+    color: white;
+
+
+}
+
+/* contenedor */
+#contenedor {
+    display: flex;
+}
+
+.img1 img {
+    width: 390px;
+}
+
+/* contenedor_vision */
+#contenedor_vision {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* cuadro_central */
+#cuadro_central {
+    display: flex;
+}
+
+#cuadro1 .titulo {
+    padding-left: 10px;
+    font-size: 20px;
+    color: green;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+#cuadro1 .letras {
+    font-size: 10px;
+    text-align: justify;
+    padding: 0px 15px 0px 10px;
+}
+
+/* #cuadro2 {
+    background: url("imagen.jpg");
+    height: 200px;
+} */
+
+/* #cuadro2 #exc {
+    background: white;
+    width: 110px;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px 20px 10px 20px;
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+#cuadro2 #byp {
+    background: rgb(55, 175, 211);
+    width: 160px;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px 10px 10px 10px;
+    margin-top: 20px;
+    color: white;
+    font-size: 25px;
+} */
+
+#cuadro3 .titulo {
+    padding-left: 10px;
+    font-size: 20px;
+    color: green;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+#cuadro3 .letras {
+    font-size: 10px;
+    text-align: justify;
+    padding: 0px 15px 0px 10px;
+}
+
+.cuadroc {
+    width: 400px;
+}
+
+#block {
+    display: flex;
+}
+
+/* articulo */
+#frase {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #9c27b0;
+    text-align: center;
+    background-color: rgb(216, 209, 209);
+}
+
+#land {
+    background-image: url(./imagen.jpg);
+    background-size: cover;
+    height: 300px;
+    font-size: 30px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 20px;
+    text-align: center;
+}
+
+/* footer */
+footer {
+    display: flex;
+    background-color: black;
+    height: 300px;
+    font-size: 10px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 20px;
+    text-align: center;
+    margin-top: 5px;
+
+}
+
+.foot #iconos {
+    display: flex;
+    width: 100px;
+    font-size: 20px;
+}
+
+.foot img {
+    height: 100px;
+}
+
+.foot {
+    width: 380px;
+}
+
+.foot .titulo1 {
+    font-size: 20px;
+    padding-bottom: 10px;
+    padding-top: 15px;
+    color: green;
+
+}
+.foot .titulo {
+    font-size: 20px;
+    padding-bottom: 10px;
+    padding-top: 15px;
+    color: yellow;
+
+}
+/* .cajita .titulo{
+    color: white;
+}
+ */
+
+.caja1 p{
+    text-align: justify;
+}
+
+.foot .datos {
+    font-size: 15px;
+    color: rgb(195, 128, 204);
+    text-align: center;
+}
+
+.caja2 {
+    display: flex;
+}
