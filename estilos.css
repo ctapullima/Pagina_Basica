@@ -1,56 +1,57 @@
 /* setear la pagina */
 * {
-    margin: 0px;
-    padding: 0px;
-    margin: auto;
+	margin: 0px;
+	padding: 0px;
+	margin: auto;
 }
 
 body {
-    width: 90%;
-    max-width: 1200px;
-    margin: auto;
+	width: 90%;
+	max-width: 1200px;
+	margin: auto;
 }
 
 /* header */
 #logo img {
-    height: 100px;
+	height: 100px;
 }
 
 header {
-    display: flex;
-    font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
+	display: flex;
+	font-size: 20px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
 }
 
 .cuadro {
-    height: 90px;
-    line-height: 90px;
-    width: 120px;
-    text-align: center;
+	height: 90px;
+	line-height: 90px;
+	width: 120px;
+	text-align: center;
 }
 
 .cuadro a {
-    text-decoration: none;
-    color: black;
+	text-decoration: none;
+	color: black;
 }
 
-.cuadro:hover {
-    background-color: rgb(216, 209, 209);
-    color: #9c27b0;
-    font-size: 20px;
+.cuadro a:hover {
+	background-color: coral;
+	color: white;
+	font-size: 15px;
+	padding: 30px 20px 30px 10px;
 }
 
 .icon-facebook2 {
-    color: blue;
+	color: blue;
 }
 
 .icon-whatsapp {
-    color: green;
+	color: green;
 }
 
 .icon-youtube2 {
-    color: red;
+	color: red;
 }
 
 
@@ -59,337 +60,381 @@ header {
 
 /* Letras*/
 #amarillo {
-    background-color: #7a7a11;
-    height: 60px;
-    font-family: 'Roboto', sans-serif;
+	background-color: #7a7a11;
+	height: 60px;
+	font-family: 'Roboto', sans-serif;
 
 }
 
 #verde {
-    background-color: green;
-    height: 60px;
-    font-family: 'Oswald', sans-serif;
+	background-color: green;
+	height: 60px;
+	font-family: 'Oswald', sans-serif;
 
 }
 
 #celeste {
-    background-color: #1da8e9;
-    height: 60px;
-    font-family: 'Comic Neue', cursive;
-
+	background-color: #1da8e9;
+	height: 60px;
+	font-family: "Comic Neue", cursive;
 }
 
 #rojo {
-    background-color: #c01111;
-    height: 60px;
-    font-family: 'Bungee Spice', cursive;
-
+	background-color: #c01111;
+	height: 60px;
+	font-family: "Bungee Spice", cursive;
 }
 
 #guinda {
-    background-color: #7f1594;
-    height: 60px;
+	background-color: #7f1594;
+	height: 60px;
 }
 
 .cuadro1 {
-    border: 4px solid black;
-    margin-bottom: 5px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 40px;
-    text-align: center;
-    color: white;
-
-
+	border: 4px solid black;
+	margin-bottom: 5px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 40px;
+	text-align: center;
+	color: white;
 }
 
 /* contenedor */
 #contenedor {
-    display: flex;
+	display: flex;
 }
 
 .img1 img {
-    width: 390px;
+	width: 390px;
 }
 
 /* contenedor_vision */
 #contenedor_vision {
-    display: flex;
-    flex-wrap: wrap;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+/* formulario */
+#formul {
+	width: 800px;
+	height: 800px;
+	border:2px solid black ;
+	box-shadow: 10px 10px;
+	margin-bottom: 20px;
+	background-color: rgb(243, 237, 234);
+}
+#formul .titulo{
+	font-size: 20px;
+	color: coral;
+	font-weight: bolder;
+	height: 30px;
+	padding: 10px 20px;
+	text-align: center;
+}
+.personal{
+	width: 700px;
+	padding: 10px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#nombre{
+	width: 260px;
+}
+#email{
+	width: 270px;
+}
+#apellido{
+	width: 260px;
+	margin-right: 135px;
+}
+#direccion{
+	width: 600px;
+}
+.campo{
+	margin-bottom: 10px;
+}
+#distrito{
+	width: 130px;
+}
+#Provincia{
+	width: 120px;
+}
+#departamento{
+	width: 110px;
+}
+.laboral{
+	width: 700px;
+	padding: 10px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#nombreE{
+	width: 520px;
+
 }
 
 /*tabla*/
 .contenedor_mensaje .titulo {
-    color: green;
-    font-size: 30px;
-    font-weight: bold;
-    text-align: center;
-    padding: 20px 0px 10px 0px;
+	color: green;
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+	padding: 20px 0px 10px 0px;
 }
 
 .contenedor_mensaje .parrafo {
-    text-align: justify;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 15px;
-    padding-bottom: 20px;
+	text-align: justify;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 15px;
+	padding-bottom: 20px;
 }
 
 #tabla1,
 #tabla2 {
-    width: 800px;
-
+	width: 800px;
 }
 
 #tabla1,
 #tabla1 th,
 #tabla1 td {
-    border: 1px solid black;
-    border-collapse: collapse;
-    padding: 5px 0px 5px 10px;
+	border: 1px solid black;
+	border-collapse: collapse;
+	padding: 5px 0px 5px 10px;
 }
 
 #tabla2,
 #tabla2 th,
 #tabla2 td {
-    border: 1px solid rgb(252, 248, 248);
-    border-collapse: collapse;
-    padding: 5px 0px 5px 10px;
+	border: 1px solid rgb(252, 248, 248);
+	border-collapse: collapse;
+	padding: 5px 0px 5px 10px;
 }
 
 #tabla1 th {
-    background-color: #551a1a;
-    color: white;
-    font-size: 20px;
-    font-weight: bold;
+	background-color: #551a1a;
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
 }
 
 #tabla2 th {
-    background-color: #150d44;
-    color: white;
-    font-size: 20px;
-    font-weight: bold;
+	background-color: #150d44;
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
 }
 
 #tabla2 .oscuro {
-    color: #150d44;
-    font-size: 20px;
-    border-bottom: 1px solid #150d44;
-    font-weight: bold;
+	color: #150d44;
+	font-size: 20px;
+	border-bottom: 1px solid #150d44;
+	font-weight: bold;
 }
 
 #tabla1 .oscuro {
-    background-color: #932d2d;
-    color: white;
+	background-color: #932d2d;
+	color: white;
 }
 
 #tabla1 td:nth-child(1) {
-    text-align: center;
-    width: 70px;
+	text-align: center;
+	width: 70px;
 }
 
 #tabla1 td:nth-child(3) {
-    text-align: center;
-    width: 70px;
+	text-align: center;
+	width: 70px;
 }
 
 #tabla1 td:nth-child(4) {
-    text-align: center;
-    width: 70px;
+	text-align: center;
+	width: 70px;
 }
 
 #tabla1 td:nth-child(5) {
-    text-align: center;
-    width: 70px;
+	text-align: center;
+	width: 70px;
 }
 
 #tabla1 td:nth-child(6) {
-    text-align: center;
-    width: 70px;
+	text-align: center;
+	width: 70px;
 }
 
 #tabla1 tr:nth-child(even) {
-    background-color: #f7d8d8;
+	background-color: #f7d8d8;
 }
 
 #tabla2 .lineab {
-    border-bottom: 1px solid black;
+	border-bottom: 1px solid black;
 }
 
 #tabla2 td:nth-child(1) {
-    text-align: center;
-    width: 90px;
+	text-align: center;
+	width: 90px;
 }
 
 #tabla2 td:nth-child(3) {
-    text-align: center;
-    width: 90px;
+	text-align: center;
+	width: 90px;
 }
 
 #tabla2 td:nth-child(4) {
-    text-align: center;
-    width: 90px;
+	text-align: center;
+	width: 90px;
 }
 
 #tabla2 td:nth-child(5) {
-    text-align: center;
-    width: 90px;
+	text-align: center;
+	width: 90px;
 }
 
 #tabla2 td:nth-child(6) {
-    text-align: center;
-    width: 90px;
+	text-align: center;
+	width: 90px;
 }
 
 #tabla2 tr:nth-child(even) {
-    background-color: #d5d5d6;
+	background-color: #d5d5d6;
 }
 
 /* cuadro_central */
 #cuadro_central {
-    display: flex;
+	display: flex;
 }
 
 #cuadro1 .titulo {
-    padding-left: 10px;
-    font-size: 20px;
-    color: green;
-    font-weight: bold;
-    padding-bottom: 20px;
+	padding-left: 10px;
+	font-size: 20px;
+	color: green;
+	font-weight: bold;
+	padding-bottom: 20px;
 }
 
 #cuadro1 .letras {
-    font-size: 10px;
-    text-align: justify;
-    padding: 0px 15px 0px 10px;
+	font-size: 10px;
+	text-align: justify;
+	padding: 0px 15px 0px 10px;
 }
 
 #cuadro2 {
-    background: url("imagen.jpg");
-    height: 200px;
+	background: url("imagen.jpg");
+	height: 200px;
 }
 
 #cuadro2 #exc {
-    background: white;
-    width: 110px;
-    text-align: center;
-    font-weight: bold;
-    padding: 10px 20px 10px 20px;
-    margin-top: 20px;
-    font-size: 30px;
+	background: white;
+	width: 110px;
+	text-align: center;
+	font-weight: bold;
+	padding: 10px 20px 10px 20px;
+	margin-top: 20px;
+	font-size: 30px;
 }
 
 #cuadro2 #byp {
-    background: rgb(55, 175, 211);
-    width: 160px;
-    text-align: center;
-    font-weight: bold;
-    padding: 10px 10px 10px 10px;
-    margin-top: 20px;
-    color: white;
-    font-size: 25px;
+	background: rgb(55, 175, 211);
+	width: 160px;
+	text-align: center;
+	font-weight: bold;
+	padding: 10px 10px 10px 10px;
+	margin-top: 20px;
+	color: white;
+	font-size: 25px;
 }
 
 #cuadro3 .titulo {
-    padding-left: 10px;
-    font-size: 20px;
-    color: green;
-    font-weight: bold;
-    padding-bottom: 20px;
+	padding-left: 10px;
+	font-size: 20px;
+	color: green;
+	font-weight: bold;
+	padding-bottom: 20px;
 }
 
 #cuadro3 .letras {
-    font-size: 10px;
-    text-align: justify;
-    padding: 0px 15px 0px 10px;
+	font-size: 10px;
+	text-align: justify;
+	padding: 0px 15px 0px 10px;
 }
 
 .cuadroc {
-    width: 400px;
+	width: 400px;
 }
 
 #block {
-    display: flex;
+	display: flex;
 }
 
 /* articulo */
 #frase {
-    font-size: 30px;
-    font-weight: bold;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: #9c27b0;
-    text-align: center;
-    background-color: rgb(216, 209, 209);
+	font-size: 30px;
+	font-weight: bold;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	color: #9c27b0;
+	text-align: center;
+	background-color: rgb(216, 209, 209);
 }
 
 #land {
-    background-image: url(./imagen.jpg);
-    background-size: cover;
-    height: 300px;
-    font-size: 30px;
-    color: white;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    padding-top: 20px;
-    text-align: center;
+	background-image: url(./imagen.jpg);
+	background-size: cover;
+	height: 300px;
+	font-size: 30px;
+	color: white;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	padding-top: 20px;
+	text-align: center;
 }
 
 /* footer */
 footer {
-    display: flex;
-    background-color: black;
-    height: 300px;
-    font-size: 10px;
-    color: white;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    padding-top: 20px;
-    text-align: center;
-    margin-top: 5px;
-
+	display: flex;
+	background-color: black;
+	height: 300px;
+	font-size: 10px;
+	color: white;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	padding-top: 20px;
+	text-align: center;
+	margin-top: 5px;
 }
 
 .foot #iconos {
-    display: flex;
-    width: 100px;
-    font-size: 20px;
+	display: flex;
+	width: 100px;
+	font-size: 20px;
 }
 
 .foot img {
-    height: 100px;
+	height: 100px;
 }
 
 .foot {
-    width: 380px;
+	width: 380px;
 }
 
 .foot .titulo1 {
-    font-size: 20px;
-    padding-bottom: 10px;
-    padding-top: 15px;
-    color: green;
-
+	font-size: 20px;
+	padding-bottom: 10px;
+	padding-top: 15px;
+	color: green;
 }
 
 .foot .titulo {
-    font-size: 20px;
-    padding-bottom: 10px;
-    padding-top: 15px;
-    color: yellow;
-
+	font-size: 20px;
+	padding-bottom: 10px;
+	padding-top: 15px;
+	color: yellow;
 }
-
-/* .cajita .titulo{
-    color: white;
-}
- */
 
 .caja1 p {
-    text-align: justify;
+	text-align: justify;
 }
 
 .foot .datos {
-    font-size: 15px;
-    color: rgb(195, 128, 204);
-    text-align: center;
+	font-size: 15px;
+	color: rgb(195, 128, 204);
+	text-align: center;
 }
 
 .caja2 {
-    display: flex;
+	display: flex;
 }
