@@ -118,12 +118,13 @@ header {
 #formul {
 	width: 800px;
 	height: 800px;
-	border:2px solid black ;
+	border: 2px solid black;
 	box-shadow: 10px 10px;
 	margin-bottom: 20px;
 	background-color: rgb(243, 237, 234);
 }
-#formul .titulo{
+
+#formul .titulo {
 	font-size: 20px;
 	color: coral;
 	font-weight: bolder;
@@ -131,44 +132,95 @@ header {
 	padding: 10px 20px;
 	text-align: center;
 }
-.personal{
+
+.personal {
 	width: 700px;
 	padding: 10px;
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-#nombre{
+
+#nombre {
 	width: 260px;
 }
-#email{
+
+#email {
 	width: 270px;
 }
-#apellido{
+
+#apellido {
 	width: 260px;
 	margin-right: 135px;
 }
-#direccion{
+
+#direccion {
 	width: 600px;
 }
-.campo{
+
+.campo {
 	margin-bottom: 10px;
 }
-#distrito{
+
+#distrito {
 	width: 130px;
 }
-#Provincia{
+
+#Provincia {
 	width: 120px;
 }
-#departamento{
+
+#departamento {
 	width: 110px;
 }
-.laboral{
+
+.laboral {
 	width: 700px;
 	padding: 10px;
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-#nombreE{
+
+#nombreE {
 	width: 520px;
 
+}
+
+#cargo {
+	width: 520px;
+}
+
+#url {
+	width: 635px;
+}
+
+.complementario {
+	width: 700px;
+	padding: 10px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#pro,
+#tec,
+#lic,
+#mas {
+	margin-right: 200px;
+}
+
+.otra {
+	width: 700px;
+	padding: 10px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.formatabla tr,
+.formatabla th,
+.formatabla td {
+	border: 1px solid rgb(252, 248, 248);
+	border-collapse: collapse;
+	/* padding: 5px 0px 5px 10px; */
+}
+
+.formatabla td {
+	width: 100px;
+	text-align: center;
 }
 
 /*tabla*/

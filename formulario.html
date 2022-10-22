@@ -2,57 +2,153 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./estilos.css">
-    <link rel="stylesheet" href="./style.css">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./estilos.css" />
+    <link rel="stylesheet" href="./style.css" />
     <title>1555 Formulario practica</title>
 </head>
 
 <body>
+    k
     <header>
         <div id="logo">
-            <img src="./logo.png" alt="">
+            <img src="./logo.png" alt="" />
         </div>
-        <div class="cuadro"><a href="./index.html"><span class="icon icon-home"></span> Home</a></div>
-        <div class="cuadro"> <a href="./vision.html"><span class="icon icon-binoculars"></span> Vision</a></div>
+        <div class="cuadro">
+            <a href="./index.html"><span class="icon icon-home"></span> Home</a>
+        </div>
+        <div class="cuadro">
+            <a href="./vision.html"><span class="icon icon-binoculars"></span> Vision</a>
+        </div>
         <div class="cuadro"><span class="icon icon-library"></span> Mision</div>
-        <div class="cuadro"><a href="./tabla.html"><span class="icon icon-file-text"></span> tabla</a></div>
-        <div class="cuadro"><a href="./letras.html"><span class="icon icon-stack"></span> Letras</a></div>
-        <div class="cuadro"><a href="./formulario.html"><span class="icon icon-users"></span> login</a></div>
-        <div><a href="https://www.facebook.com/arlinsonsanabria/videos/1217637035679134/"><span
-                    class="icon icon-facebook2"></span></a></div>
+        <div class="cuadro">
+            <a href="./tabla.html"><span class="icon icon-file-text"></span> tabla</a>
+        </div>
+        <div class="cuadro">
+            <a href="./letras.html"><span class="icon icon-stack"></span> Letras</a>
+        </div>
+        <div class="cuadro">
+            <a href="./formulario.html"><span class="icon icon-users"></span> login</a>
+        </div>
+        <div>
+            <a href="https://www.facebook.com/arlinsonsanabria/videos/1217637035679134/"><span
+                    class="icon icon-facebook2"></span></a>
+        </div>
         <div><span class="icon icon-whatsapp"></span></div>
         <div><span class="icon icon-youtube2"></span></div>
     </header>
     <section id="formul">
-        <div class="titulo">
-            REGISTRESE
-        </div>
+        <div class="titulo">REGISTRESE</div>
         <form action="">
             <fieldset class="personal">
                 <legend>Datos Personales</legend>
-                Nombre:&nbsp&nbsp <input type="text" name="nombre" id="nombre" class="campo">
-                Correo: <input type="email" name="email" id="email" class="campo"><br>
-                Apellido:&nbsp <input type="text" name="apellido" id="apellido" class="campo">
-                Fecha Nac: <input type="date" name="fechan" id="fechan" class="campo"><br>
-                Direccion: <input type="text" name="direccion" id="direccion" class="campo"><br>
-                Distrito:&nbsp&nbsp <input type="text" name="distrito" id="distrito" class="campo">
-                Provincia: <input type="text" name="Provincia" id="Provincia" class="campo">
-                Departamento:<input type="text" name="departamento" id="departamento" class="campo">
+                Nombre:&nbsp&nbsp
+                <input type="text" name="nombre" id="nombre" class="campo" /> Correo:
+                <input type="email" name="email" id="email" class="campo" /><br />
+                Apellido:&nbsp
+                <input type="text" name="apellido" id="apellido" class="campo" />
+                Fecha Nac:
+                <input type="date" name="fechan" id="fechan" class="campo" /><br />
+                Direccion:
+                <input type="text" name="direccion" id="direccion" class="campo" /><br />
+                Distrito:&nbsp&nbsp
+                <input type="text" name="distrito" id="distrito" class="campo" />
+                Provincia:
+                <input type="text" name="Provincia" id="Provincia" class="campo" />
+                Departamento:<input type="text" name="departamento" id="departamento" class="campo" />
             </fieldset>
             <fieldset class="laboral">
                 <legend>Datos laboral</legend>
-                Nombre Empresa:&nbsp&nbsp <input type="text" name="nombreE" id="nombreE" class="campo"><br>
-                Cargo Empresa:&nbsp <input ktype="text" name="cargo" id="cargo" class="campo"><br>
-                URL: <input type="text" name="direccion" id="direccion" class="campo"><br>
-
+                Nombre Empresa:&nbsp&nbsp
+                <input type="text" name="nombreE" id="nombreE" class="campo" /><br />
+                Cargo Empresa:&nbsp&nbsp&nbsp&nbsp&nbsp
+                <select name="cargo" id="cargo" class="campo">
+                    <optgroup label="técnico">
+                        <option value="tesa">Tecnico en salubridad</option>
+                        <option value="tesa">Tecnico en reciclaje</option>
+                        <option value="lava">lavadores</option>
+                        <option value="inso">Ingenieros de soporte</option>
+                    </optgroup>
+                </select><br />
+                URL: <input type="url" name="url" id="url" class="campo" /><br />
+                experiencia:
+                <input type="range" name="exp" id="exp" min="1" max="100" /> Años de
+                Trabajo: <input type="number" min="1" max="20" />
             </fieldset>
-
+            <fieldset class="complementario">
+                <legend>Datos Complementarios</legend>
+                Profesional:
+                <input type="checkbox" name="pro" id="pro" class="campo" selected />
+                Hombre:
+                <input type="checkbox" name="hombre" id="hombre" class="campo" selected /><br />
+                Tecnico:&nbsp&nbsp&nbsp&nbsp&nbsp
+                <input type="checkbox" name="tec" id="tec" class="campo" selected />
+                Mujer:&nbsp&nbsp&nbsp
+                <input type="checkbox" name="Mujer" class="campo" id="Mujer" /><br />
+                licenciado:&nbsp
+                <input type="checkbox" name="lic" id="lic" class="campo" selected />
+                Otros: &nbsp&nbsp&nbsp
+                <input type="checkbox" name="otros" class="campo" id="Otro" /><br />
+                Maestria:&nbsp&nbsp&nbsp
+                <input type="checkbox" name="mas" id="mas" class="campo" /><br />
+            </fieldset>
+            <fieldset class="otra">
+                <legend>Datos Complementarios</legend>
+                <table class="formatabla">
+                    <tr>
+                        <th>Grado</th>
+                        <th></th>
+                        <th></th>
+                        <th>Sexo</th>
+                        <th></th>
+                    </tr>
+                    <tr>
+                        <td>Profesional:</td>
+                        <td>
+                            <input type="checkbox" name="pro" id="pro1" class="campo" selected />
+                        </td>
+                        <td></td>
+                        <td>Hombre:</td>
+                        <td>
+                            <input type="radio" name="hombre" id="hombre1" class="campo" selected />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Tecnico:</td>
+                        <td>
+                            <input type="checkbox" name="tec" id="tec1" class="campo" selected />
+                        </td>
+                        <td></td>
+                        <td>Mujer:</td>
+                        <td>
+                            <input type="radio" name="Mujer" class="campo" id="Mujer1" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Licenciado:</td>
+                        <td>
+                            <input type="checkbox" name="lic" id="lic1" class="campo" selected />
+                        </td>
+                        <td></td>
+                        <td>Otros:</td>
+                        <td>
+                            <input type="radio" name="otros" class="campo" id="Otro1" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Maestria:</td>
+                        <td>
+                            <input type="checkbox" name="mas" id="mas1" class="campo" selected />
+                        </td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </table>
+            </fieldset>
         </form>
-
-
     </section>
 
     <footer>
@@ -63,56 +159,64 @@
                 <div><span class="icon icon-youtube2"></span></div>
             </div>
             <p class="titulo1">Todos los caminos llegan a roma</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea dolorem ex facere, qui ipsa ullam sint optio!
-                Voluptatum sit maiores ea sint qui, deserunt quibusdam veritatis architecto cumque cum! Assumenda!</p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea dolorem ex
+                facere, qui ipsa ullam sint optio! Voluptatum sit maiores ea sint qui,
+                deserunt quibusdam veritatis architecto cumque cum! Assumenda!
+            </p>
         </div>
         <div class="foot caja2">
             <div class="cajita">
                 <p class="titulo">Productores</p>
-                <p>Carlos Tapullima <br>
-                    Luis Enriquez <br>
+                <p>
+                    Carlos Tapullima <br />
+                    Luis Enriquez <br />
                     Tania lopez
                 </p>
                 <p class="titulo">Animadores</p>
-                <p>Carlos Tapullima <br>
-                    Luis Enriquez <br>
+                <p>
+                    Carlos Tapullima <br />
+                    Luis Enriquez <br />
                     Tania lopez
                 </p>
                 <p class="titulo">Camarografos</p>
-                <p>Carlos Tapullima <br>
-                    Luis Enriquez <br>
+                <p>
+                    Carlos Tapullima <br />
+                    Luis Enriquez <br />
                     Tania lopez
                 </p>
             </div>
             <div class="cajita">
                 <p class="titulo">Productores</p>
-                <p>Carlos Tapullima <br>
-                    Luis Enriquez <br>
+                <p>
+                    Carlos Tapullima <br />
+                    Luis Enriquez <br />
                     Tania lopez
                 </p>
                 <p class="titulo">Animadores</p>
-                <p>Carlos Tapullima <br>
-                    Luis Enriquez <br>
+                <p>
+                    Carlos Tapullima <br />
+                    Luis Enriquez <br />
                     Tania lopez
                 </p>
                 <p class="titulo">Camarografos</p>
-                <p>Carlos Tapullima <br>
-                    Luis Enriquez <br>
+                <p>
+                    Carlos Tapullima <br />
+                    Luis Enriquez <br />
                     Tania lopez
                 </p>
             </div>
         </div>
         <div class="foot caja3">
-            <img src="./imagen.jpg" alt="">
+            <img src="./imagen.jpg" alt="" />
             <p class="datos">
-                Autor:Carlos Martin <br>
-                Email:ctapullima@gmail.com <br>
-                cel: 956233655 <br>
+                Autor:Carlos Martin <br />
+                Email:ctapullima@gmail.com <br />
+                cel: 956233655 <br />
                 <cite>Todos los derechos reservados</cite>
             </p>
         </div>
     </footer>
-
 </body>
 
 </html>
