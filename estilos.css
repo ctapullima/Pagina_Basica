@@ -54,23 +54,49 @@ header {
 	color: red;
 }
 
+/* Menu despegable */
+/* float se utila en listas,por ejemplo si esta arriba lo voltea  */
 
+.menus > li {
+	float: left;
+}
 
+.menuu {
+	display: block;
+	width: 140px;
+	height: 50px;
+	line-height: 50px; /*  las lineas se comienza a extandir */
+	font-weight: bold;
+	font-size: 20px;
+}
+.menuu1 {
+	display: block;
+	width: 25px;
+	height: 50px;
+	line-height: 50px; /*  las lineas se comienza a extandir */
+	font-weight: bold;
+	font-size: 15px;
+}
+.menus li a {
+	background-color: white;
+	width: 140px;
+	color: black;
+	display: block;
+	text-align: center;
+}
 
 
 /* Letras*/
 #amarillo {
 	background-color: #7a7a11;
 	height: 60px;
-	font-family: 'Roboto', sans-serif;
-
+	font-family: "Roboto", sans-serif;
 }
 
 #verde {
 	background-color: green;
 	height: 60px;
-	font-family: 'Oswald', sans-serif;
-
+	font-family: "Oswald", sans-serif;
 }
 
 #celeste {
@@ -180,7 +206,6 @@ header {
 
 #nombreE {
 	width: 520px;
-
 }
 
 #cargo {
