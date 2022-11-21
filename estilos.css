@@ -69,6 +69,7 @@ header {
 	font-weight: bold;
 	font-size: 20px;
 }
+
 .menuu1 {
 	display: block;
 	width: 25px;
@@ -82,7 +83,32 @@ header {
 	width: 140px;
 	color: black;
 	display: block;
+	text-decoration: none;
 	text-align: center;
+	height: 50px;
+}
+.menus li a:hover {
+	background: coral;
+	color: white;
+}
+.menus li ul {
+	/* para que se puede  oculatar o desaparecer la barra de opciones */
+	display: none;
+	position: absolute;
+	min-width: 140px;
+}
+/* aki abajo hace cuando llegue al menu se despleague las opciones para abajo y con colores, llega a ul y se despkliegue li */
+.menus li:hover>ul{
+	display: block;
+}
+.menus li ul li{
+	position: relative;
+	display: block;
+}
+/* se usa relativa , porque luego el hizo se va aperturar en otras opciones */
+.menus li ul li ul{
+	right: -140px;
+	top: 0px;
 }
 
 
